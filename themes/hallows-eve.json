@@ -238,7 +238,7 @@
             "color": "#EDC47E"
           },
           "boolean": {
-            "color": "#E5A7BF"
+            "color": "#FFAA66"
           },
           "constant": {
             "color": "#FFD18A",
@@ -249,7 +249,7 @@
             "font_weight": 500
           },
           "property": {
-            "color": "#D8C7B3"
+            "color": "#EDC47E"
           },
           "variable.special": {
             "color": "#8DCED3"
@@ -574,7 +574,7 @@
             "color": "#865B09"
           },
           "boolean": {
-            "color": "#935176"
+            "color": "#A34A0C"
           },
           "constant": {
             "color": "#805207",
@@ -585,7 +585,7 @@
             "font_weight": 500
           },
           "property": {
-            "color": "#66503D"
+            "color": "#865B09"
           },
           "variable.special": {
             "color": "#286A70"

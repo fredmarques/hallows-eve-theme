@@ -5,20 +5,24 @@ A Halloween-inspired theme family for [Zed](https://zed.dev), with pumpkin-orang
 - **Hallow's Eve** pairs warm charcoal surfaces with soft, luminous syntax colors.
 - **Hallow's Eve Light** pairs warm ivory surfaces with deeper autumnal syntax colors.
 
-![Hallow's Eve in Zed](assets/preview.png)
+![Hallow's Eve in Zed](assets/properties-dark.png)
 
-![Hallow's Eve Light in Zed](assets/preview-light.png)
+![Hallow's Eve Light in Zed](assets/properties-light.png)
 
-Actual Zed screenshots, cropped to show the editor and tabs.
+Actual Zed screenshots, cropped to show nested property highlighting.
 
 ## What's new in 0.2.0
 
-- Violet functions, teal types, bone-toned properties, candle-gold constants, and mauve booleans.
+- Violet functions, teal types, and candle-gold constants.
 - More distinct active tabs, violet selections, amber search matches, and green matching brackets.
 - Refined Git change and diagnostic backgrounds in both appearances.
 - Coverage for built-in constants, enum variants, preprocessor directives, and Markdown list markers and literal text.
 
 Themes color the syntax captures provided by each language. Install Zed's corresponding language extension when needed; a theme alone does not add PHP, Vue, or Dart language support.
+
+### Property highlighting in 0.2.1
+
+Object properties now reuse the existing harvest-gold accent: `#EDC47E` in dark mode and `#865B09` in light mode. This includes nested member access such as `store.state.accessManagement.appLocked`; every property uses the same color, while the base variable and punctuation retain their own styles. Booleans use pumpkin orange, keeping the main syntax palette focused on warm autumn colors. Exact highlighting depends on the language grammar and semantic tokens provided to Zed.
 
 ## Install
 
