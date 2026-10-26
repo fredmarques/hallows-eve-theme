@@ -5,11 +5,20 @@ A Halloween-inspired theme family for [Zed](https://zed.dev), with pumpkin-orang
 - **Hallow's Eve** pairs warm charcoal surfaces with soft, luminous syntax colors.
 - **Hallow's Eve Light** pairs warm ivory surfaces with deeper autumnal syntax colors.
 
-![Hallow's Eve illustrative preview](assets/preview.png)
+![Hallow's Eve in Zed](assets/preview.png)
 
-![Hallow's Eve Light illustrative preview](assets/preview-light.png)
+![Hallow's Eve Light in Zed](assets/preview-light.png)
 
-These previews illustrate the theme palettes; they are not editor screenshots.
+Actual Zed screenshots, cropped to show the editor and tabs.
+
+## What's new in 0.2.0
+
+- Violet functions, teal types, bone-toned properties, candle-gold constants, and mauve booleans.
+- More distinct active tabs, violet selections, amber search matches, and green matching brackets.
+- Refined Git change and diagnostic backgrounds in both appearances.
+- Coverage for built-in constants, enum variants, preprocessor directives, and Markdown list markers and literal text.
+
+Themes color the syntax captures provided by each language. Install Zed's corresponding language extension when needed; a theme alone does not add PHP, Vue, or Dart language support.
 
 ## Install
 
@@ -45,9 +54,11 @@ To follow your system appearance, merge this setting into Zed's `settings.json`:
 | Witchy violet | `#C6A0F6` | `#74449C` |
 | Ghostly green | `#B6D982` | `#476923` |
 | Spectral teal | `#8DCED3` | `#286A70` |
-| Comments | `#A194AA` | `#796779` |
+| Comments | `#A194AA` | `#716071` |
 
-Includes editor, panels, tabs, diagnostics, collaboration colors, and terminal ANSI colors. Main text, comments, and primary syntax colors exceed 4.5:1 contrast against the editor background.
+Includes editor, panels, tabs, diagnostics, collaboration colors, and terminal ANSI colors. Checked syntax roles and comments exceed 4.5:1 contrast against the editor background, active line, primary selection, and search-match background in both appearances. These checks cover each background separately; overlapping highlights may differ.
+
+Validated against Zed's v0.2.0 theme JSON schema. Visually checked TypeScript in both appearances and Dart in dark mode in Zed.
 
 ## License
 

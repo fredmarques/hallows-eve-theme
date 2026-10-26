@@ -1,6 +1,6 @@
 id = "hallows-eve-theme"
 name = "Hallow's Eve"
-version = "0.1.0"
+version = "0.2.0"
 schema_version = 1
 authors = ["Fred Marques"]
 description = "Halloween-inspired dark and light themes with pumpkin orange, witchy violet, and ghostly green."
